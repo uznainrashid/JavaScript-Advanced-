@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Event bubbling</title>
+    <style>
+        .container{
+            border: solid 2px black;
+            margin: 14px;
+            padding:14px ;
+            background-color: rgb(248, 157, 38);
+        }
+        .childcontainer{
+            border: solid 2px blue;
+            margin: 14px;
+            padding:14px ;
+            background-color: blue;
+            cursor: pointer;
+        }
+        .child{
+            border: solid 2px antiquewhite;
+            margin: 14px;
+            padding:14px ;
+            background-color: antiquewhite;
+            cursor: pointer;
+    
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- <div class="content">hey i am uznain</div>
+    <button class="btn">Clicked me</button> -->
+
+    <div class="container">
+        <div class="childcontainer">
+            <div class="child">hey i am child</div>
+        </div>
+    </div>
+    <script src="events.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container bg red-green">
+        <div class="box " style="display: flex;" data-createdby="uznainrashid" data-conceptby="codewithharry"> hey i am a DOM</div>
+        <div class="box" >hey i am a
+            Not Dom</div>
+        <script>
+            // let div = document.createElement("div");
+            // div.innerHTML = "i have been inserted  by <b> = > uznain</b>"
+            // div.setAttribute("class", "NewCreated")
+            // document.querySelector(".container").prepend(div)
+            let cont = document.querySelector(".container");
+            cont.insertAdjacentHTML("beforebegin", " hey i am new <b> bold tag in a html </b>");
+
+
+
+        </script>
+    </div>
+    <script src="insert.js"></script>
+</body>
+
+</html>

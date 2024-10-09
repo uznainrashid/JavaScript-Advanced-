@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards exercise</title>
+    <style>
+        .card{
+            display: flex;
+            margin: 3px;
+            border: 2px solid black;
+            justify-content: center;
+            align-items: center;
+            width: 1400px;
+        }
+        .image img{
+            width: 200px;
+            border-radius:4px ;
+
+        }
+        .text h1 , p {
+            padding: 2px 0px;
+        }
+        .image{
+            position: relative;
+        }
+        .capsule{
+            position:absolute;
+            bottom: 4px;
+            z-index: 10;
+            right: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            opacity: 0.9;
+            padding: 4px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB0alxLSXCSEPITzWr-XXUiv1oglQ"
+                alt="" srcset="">
+                <div class="capsule">31:20</div>
+            </div>
+            <div class="text">
+                <h1> Installing VS Code  How Websites Work | Sigma Web Development Course - Tutorial #1</h1>
+                <p>CodeWithHarry. 727k views . 9 months ago</p>
+            </div>
+        </div>
+    </div>
+    <script src="execercise14.js"></script>
+</body>
+
+</html>
